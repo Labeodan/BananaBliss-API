@@ -1,0 +1,82 @@
+[
+    {
+        "model": "orders.order",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "status": "pending",
+            "total_price": "45.00",
+            "created_at": "2024-11-15T12:00:00Z",
+            "message": "Please deliver fast"
+        }
+    },
+    {
+        "model": "orders.orderproduct",
+        "pk": 1,
+        "fields": {
+            "order": 1,
+            "bread": 1,
+            "quantity": 2
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "status": "completed",
+            "total_price": "75.00",
+            "created_at": "2024-11-14T15:30:00Z",
+            "message": "Leave it at the door"
+        }
+    },
+    {
+        "model": "orders.orderproduct",
+        "pk": 2,
+        "fields": {
+            "order": 2,
+            "bread": 2,
+            "quantity": 3
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "status": "pending",
+            "total_price": "55.00",
+            "created_at": "2024-11-13T10:45:00Z",
+            "message": "Gift wrap it, please"
+        }
+    },
+    {
+        "model": "orders.orderproduct",
+        "pk": 3,
+        "fields": {
+            "order": 3,
+            "bread": 3,
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 4,
+        "fields": {
+            "user": 2,
+            "status": "pending",
+            "total_price": "120.00",
+            "created_at": "2024-11-12T08:00:00Z",
+            "message": "Ensure everything is fresh"
+        }
+    },
+    {
+        "model": "orders.orderproduct",
+        "pk": 4,
+        "fields": {
+            "order": 4,
+            "bread": 4,
+            "quantity": 4
+        }
+    }
+]

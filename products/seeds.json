@@ -1,0 +1,103 @@
+[
+    {
+      "model": "products.product",
+      "pk": 1,
+      "fields": {
+        "name": "Banana Bread Classic",
+        "description": "Delicious classic banana bread.",
+        "price": 10.00,
+        "image": "http://example.com/banana-bread-image.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 2,
+      "fields": {
+        "name": "Banana Bread with Walnuts",
+        "description": "Banana bread with crunchy walnuts.",
+        "price": 12.00,
+        "image": "http://example.com/banana-bread-walnuts-image.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 3,
+      "fields": {
+        "name": "Chocolate Chip Banana Bread",
+        "description": "Banana bread with delicious chocolate chips.",
+        "price": 12.50,
+        "image": "http://example.com/banana-bread-chocolate-chip-image.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 4,
+      "fields": {
+        "name": "Banana Bread with Almonds",
+        "description": "Banana bread with almond flakes.",
+        "price": 11.00,
+        "image": "http://example.com/banana-bread-almonds-image.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 5,
+      "fields": {
+        "name": "Cinnamon Swirl Banana Bread",
+        "description": "Banana bread with a cinnamon swirl.",
+        "price": 12.50,
+        "image": "http://example.com/banana-bread-cinnamon-image.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 6,
+      "fields": {
+        "name": "Banana Bread with Blueberries",
+        "description": "Banana bread with juicy blueberries.",
+        "price": 13.00,
+        "image": "http://example.com/banana-bread-blueberries-image.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 7,
+      "fields": {
+        "name": "Banana Bread with Pecans",
+        "description": "Banana bread with crunchy pecans.",
+        "price": 12.00,
+        "image": "http://example.com/banana-bread-pecans-image.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 8,
+      "fields": {
+        "name": "Banana Bread with Coconut",
+        "description": "Banana bread with shredded coconut.",
+        "price": 11.50,
+        "image": "http://example.com/banana-bread-coconut-image.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 9,
+      "fields": {
+        "name": "Vegan Banana Bread",
+        "description": "Delicious vegan banana bread.",
+        "price": 14.00,
+        "image": "http://example.com/banana-bread-vegan-image.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 10,
+      "fields": {
+        "name": "Gluten-Free Banana Bread",
+        "description": "Gluten-free banana bread.",
+        "price": 13.50,
+        "image": "http://example.com/banana-bread-gluten-free-image.jpg"
+      }
+    }
+  ]
+  
