@@ -11,7 +11,7 @@ from .serializers import MyTokenObtainPairSerializer
 from utils.exceptions import handle_exceptions
 
 class Signup(APIView):
-    # serializer_class = MyTokenObtainPairSerializer
+    serializer_class = MyTokenObtainPairSerializer
     @handle_exceptions
     def post(self, request):
         new_user = UsersSerializer(data = request.data)
@@ -30,7 +30,7 @@ class Signup(APIView):
 
 
 class Signin(APIView):
-    # serializer_class = MyTokenObtainPairSerializer
+    serializer_class = MyTokenObtainPairSerializer
     @handle_exceptions
     def post(self, request):
         email = request.data.get("email")
