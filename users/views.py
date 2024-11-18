@@ -17,12 +17,15 @@ class Signup(APIView):
         new_user = UsersSerializer(data = request.data)
         new_user.is_valid(raise_exception=True)
         user = new_user.save()
-        token_pair = RefreshToken.for_user(user)
+
+        # Generate token using MyTokenObtainPairSerializer
+        token = self.serializer_class.get_token(user)
+        access_token = str(token.access_token)
 
         # generate token
         return Response({
             'user' : new_user.data,
-            'token': str(token_pair.access_token)
+            'token': str(access_token)
         })
     
 
@@ -39,13 +42,15 @@ class Signin(APIView):
         user = User.objects.get(email=email)
 
         if hashers.check_password(password, user.password):
-            token_pair = RefreshToken.for_user(user)
+            # Generate token using MyTokenObtainPairSerializer
+            token = self.serializer_class.get_token(user)
+            access_token = str(token.access_token)
 
             serialized_user = UsersSerializer(user)
 
             return Response({ 
                 'user': serialized_user.data,
-                'token': str(token_pair.access_token)
+                'token': str(access_token)
             })
 
 
