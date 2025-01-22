@@ -69,7 +69,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173", "https://bananabliss.netlify.app/"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173", "https://bananabliss.netlify.app/", "http://192.168.1.4:5173"]
 
 ROOT_URLCONF = 'project.urls'
 
