@@ -1,22 +1,23 @@
-asgiref==3.8.1
-astroid==3.3.5
-autopep8==2.3.1
-dill==0.3.9
-Django==4.2.16
-django-cors-headers==4.6.0
-djangorestframework==3.15.2
-djangorestframework-simplejwt==5.3.1
-gunicorn==23.0.0
-isort==5.13.2
-mccabe==0.7.0
-packaging==24.2
-platformdirs==4.3.6
-psycopg2-binary==2.9.10
-pycodestyle==2.12.1
-PyJWT==2.9.0
-pylint==3.3.1
-python-dotenv==1.0.1
-sqlparse==0.5.2
-tomli==2.1.0
-tomlkit==0.13.2
-typing_extensions==4.12.2
+-i https://pypi.org/simple
+asgiref==3.8.1; python_version >= '3.8'
+astroid==3.3.8; python_full_version >= '3.9.0'
+autopep8==2.3.2; python_version >= '3.9'
+dill==0.3.9; python_version >= '3.8'
+django==4.2.18; python_version >= '3.8'
+django-cors-headers==4.6.0; python_version >= '3.9'
+djangorestframework==3.15.2; python_version >= '3.8'
+djangorestframework-simplejwt==5.4.0; python_version >= '3.9'
+gunicorn==23.0.0; python_version >= '3.7'
+isort==6.0.0; python_full_version >= '3.9.0'
+mccabe==0.7.0; python_version >= '3.6'
+packaging==24.2; python_version >= '3.8'
+platformdirs==4.3.6; python_version >= '3.8'
+psycopg2-binary==2.9.10; python_version >= '3.8'
+pycodestyle==2.12.1; python_version >= '3.8'
+pyjwt==2.10.1; python_version >= '3.9'
+pylint==3.3.4; python_full_version >= '3.9.0'
+python-dotenv==1.0.1; python_version >= '3.8'
+sqlparse==0.5.3; python_version >= '3.8'
+tomli==2.2.1; python_version >= '3.8'
+tomlkit==0.13.2; python_version >= '3.8'
+typing-extensions==4.12.2; python_version >= '3.8'
